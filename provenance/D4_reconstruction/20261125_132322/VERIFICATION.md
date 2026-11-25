@@ -15,6 +15,6 @@ Execution environment reported in the supplied sessionInfo: R 4.6.1, Windows 11 
 - reconstructed_filter.csv: 945f38ac3bc0337adeb9e4bd8036e86b90a697f7a073658732d887735e316e35
 - sessionInfo.txt: 4fa6af28db5767533363b24f6fa7cd7363ea57f63517e24a8bcdf71e71df2e21
 
-The report and numeric comparison were committed with exact original Git blob IDs. The two large reconstructed CSVs and full sessionInfo are retained in the author's evidence ZIP, not yet uploaded to GitHub. The exact executed R script was not included in the ZIP. A previously supplied candidate reconstruction exists, but the executed copy needs confirmation before archiving it as the validated source.
+The report and numeric comparison were committed with exact original Git blob IDs. The two large reconstructed CSVs and full sessionInfo are retained in the author's evidence ZIP, not yet uploaded to GitHub. The author subsequently supplied the executed R script, archived at scripts/18_GSE342642_primary_RECONSTRUCTED.R. Comparison with the original candidate shows only whitespace, indentation and CRLF changes. The uploaded bytes and committed Git blob were verified (SHA-256 492984c41704808c7ecfe0dae2c87ce30ad528198038e6c06d459ce67adb793b; Git blob ce97b8282a9a3e38d668c76bcc314692e8300d38).
 
 D4 primary DE numerical reproduction passes. D4 downstream enrichment execution, historical D1–D6 master reconstruction and final integration execution remain separate tasks. Repository stays private. No locked results or manuscript claims changed.
