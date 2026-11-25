@@ -13,7 +13,7 @@ Eight GEO accessions were analyzed separately using expression-data-appropriate 
 | D1 | [GSE235980](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE235980) | UWB1.289, BRCA1-deficient and restored backgrounds |
 | D2 | [GSE117765](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE117765) | PEO1 |
 | D3 | [GSE153867](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE153867) | A2780 |
-| D4 | GSE342642 | HGSOC PDX; direct public retrieval still to be verified |
+| D4 | [GSE342642](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE342642) | HGSOC PDX; public input identity verified |
 | D5 | [GSE202434](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE202434) | HCC1806 and PSN1, talazoparib maintenance/withdrawal |
 | D6 | [GSE191231](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE191231) | Recurrent HGSOC PDX after olaparib selection |
 | D7 | [GSE165914](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE165914) | MDA-MB-468 and SUM1315 |
@@ -35,7 +35,7 @@ See [release checklist](provenance/RELEASE_CHECKLIST.md) for the status of these
 
 ## Reproduction
 
-Execution instructions will be added after the complete source scripts, inputs, dependency records and paths are audited. Do not treat the historical six-accession integration as the final result. No analysis has been rerun during repository initialization.
+The final synthesis scripts and their frozen pathway inputs are present. See [dependency audit](provenance/DEPENDENCY_AUDIT.md) and [D4 public input verification](provenance/D4_PUBLIC_INPUT_VERIFICATION.md). Full upstream execution instructions require historical source recovery and testing. Do not treat the historical six-accession integration as the final result. No analysis has been rerun during repository initialization.
 
 ## Citation and licensing
 
