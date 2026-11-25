@@ -11,7 +11,8 @@ This is a staging checklist, not a certificate of reproducibility.
 - [x] Document D6 article/accession discrepancy; cite the actual GEO record separately.
 - [x] Verify final synthesis input paths and restore missing D7 merged table (DEPENDENCY_AUDIT.md).
 - [x] Transparently address both missing historical scripts: author-executed D4 primary DE and D1–D6 master reconstructions numerically validated; exact executed code and verification records archived.
-- [ ] Execute final synthesis scripts 62 and 63 in isolation and compare against frozen source tables.
+- [x] Execute final synthesis scripts 62 (13 syntax repairs) and 63 in isolation; 46/46 columns passed, five script 63 CSVs byte-identical; verification record and portable corrected script archived.
+- [ ] Transfer remaining exact final synthesis evidence bundle after privacy review.
 - [ ] Complete upstream raw-to-results execution checks or disclose remaining limitations.
 - [ ] Archive frozen outputs and verified supplementary Tables S1–S3.
 - [ ] Assemble and visually audit final Figures 1–5 and supplementary Figures S1–S4.
