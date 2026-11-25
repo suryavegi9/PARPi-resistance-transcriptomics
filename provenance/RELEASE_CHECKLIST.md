@@ -10,7 +10,9 @@ This is a staging checklist, not a certificate of reproducibility.
 - [x] Verify D4 public accessibility and archived input identity (D4_PUBLIC_INPUT_VERIFICATION.md).
 - [x] Document D6 article/accession discrepancy; cite the actual GEO record separately.
 - [x] Verify final synthesis input paths and restore missing D7 merged table (DEPENDENCY_AUDIT.md).
-- [ ] Recover or transparently address missing historical source scripts and perform execution checks.
+- [x] Transparently address both missing historical scripts: author-executed D4 primary DE and D1–D6 master reconstructions numerically validated; exact executed code and verification records archived.
+- [ ] Execute final synthesis scripts 62 and 63 in isolation and compare against frozen source tables.
+- [ ] Complete upstream raw-to-results execution checks or disclose remaining limitations.
 - [ ] Archive frozen outputs and verified supplementary Tables S1–S3.
 - [ ] Assemble and visually audit final Figures 1–5 and supplementary Figures S1–S4.
 - [ ] Archive available R session information; explicitly document missing historical records.
