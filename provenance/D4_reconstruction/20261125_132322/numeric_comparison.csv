@@ -1,0 +1,7 @@
+"field","max_abs_difference","spearman","all_within_tolerance"
+"logFC",5.10702591327572e-15,1,TRUE
+"AveExpr",4.9737991503207e-14,1,TRUE
+"t",8.88178419700125e-15,1,TRUE
+"P.Value",5.55111512312578e-16,1,TRUE
+"adj.P.Val",5.55111512312578e-16,1,TRUE
+"B",5.32907051820075e-15,1,TRUE
