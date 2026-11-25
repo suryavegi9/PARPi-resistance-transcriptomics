@@ -1,0 +1,13 @@
+"metric","value"
+"Accession_strong",0
+"Accession_directional",4
+"Accession_context",24
+"Accession_dataset_specific",12
+"Accession_inconsistent",10
+"Model_strong",0
+"Model_directional",5
+"Model_context",35
+"Model_unit_specific",5
+"Model_inconsistent",5
+"Treatment_Spearman_rho",-0.255702280912365
+"Treatment_same_direction_n",24

@@ -1,0 +1,13 @@
+"sample","passage_group","phenotype","treatment_history","primary_group"
+"F1A3","C1","Sensitive","Niraparib_selected",NA
+"F1A4","C1","Sensitive","Niraparib_selected",NA
+"F1A5","C1","Mixed","Niraparib_selected",NA
+"F251","C1","Mixed","Niraparib_selected",NA
+"F351","C2","Resistant","Niraparib_selected",NA
+"F352","C2","Resistant","Niraparib_selected",NA
+"F451","C3","Resistant","Niraparib_selected","Resistant"
+"F452","C3","Resistant","Niraparib_selected","Resistant"
+"F453","C3","Resistant","Niraparib_selected","Resistant"
+"P2A1","S2","Sensitive_control","Passaged_no_niraparib","Sensitive"
+"P2A2","S2","Sensitive_control","Passaged_no_niraparib","Sensitive"
+"P2A3","S2","Sensitive_control","Passaged_no_niraparib","Sensitive"
