@@ -1,0 +1,9 @@
+FINAL SYNTHESIS EXECUTION AUDIT
+Script 62: 13 syntax repairs applied; original archived script unchanged.
+Scripts 62 and 63 executed in separate minimal project copies.
+Script 63: five archived CSV outputs compared.
+Script 62: 12 overlapping accession fields compared with archived script 63 source table.
+Column comparisons passed: 46 / 46
+Frozen input and reference MD5 unchanged: TRUE
+Audit result: PASS
+No DE or GSEA executed. Figure appearance still requires visual review.
