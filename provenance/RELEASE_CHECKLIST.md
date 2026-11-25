@@ -13,13 +13,16 @@ This is a staging checklist, not a certificate of reproducibility.
 - [x] Transparently address both missing historical scripts: author-executed D4 primary DE and D1–D6 master reconstructions numerically validated; exact executed code and verification records archived.
 - [x] Execute final synthesis scripts 62 (13 syntax repairs) and 63 in isolation; 46/46 columns passed, five script 63 CSVs byte-identical; verification record and portable corrected script archived.
 - [ ] Transfer remaining exact final synthesis evidence bundle after privacy review.
-- [ ] Complete upstream raw-to-results execution checks or disclose remaining limitations.
+- [x] Document remaining upstream execution limitations in REPRODUCTION_STATUS.md.
+- [ ] Assess whether further upstream execution checks are needed and feasible before release; do not claim end-to-end reproduction.
 - [ ] Archive frozen outputs and verified supplementary Tables S1–S3.
 - [ ] Assemble and visually audit final Figures 1–5 and supplementary Figures S1–S4.
 - [ ] Archive available R session information; explicitly document missing historical records.
 - [ ] Audit final manuscript claims, citations and AI-use disclosure.
-- [ ] Review code license and third-party data redistribution terms.
+- [x] Author approved MIT code license and CC BY 4.0 for eligible original outputs; LICENSE and LICENSING.md added.
+- [x] Add CITATION.cff with author and ORCID; version and DOI to be added at release.
+- [ ] Complete per-file third-party redistribution rights audit, including gene-set resources.
 - [ ] Check for credentials, personal filesystem paths and unintended large files.
 - [ ] Author approves public release; create tagged release and archive DOI if desired.
 
-No differential expression or enrichment analysis was executed during repository initialization.
+The D4 primary model was rerun during reconstruction validation. No new DE or GSEA was executed during the final synthesis validation. Frozen results were not overwritten.
