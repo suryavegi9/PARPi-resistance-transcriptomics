@@ -1,0 +1,23 @@
+D4 PRIMARY MODEL RECONSTRUCTION (not historical source)
+Genes retained: 14277 (expected 14277)
+Exact retained gene membership: TRUE
+Max absolute median CPM difference: 4.54747350886e-11
+Pass 1 correlation: 0.394128533604262
+Pass 2 correlation: 0.39477637734058
+Archived correlation: 0.39477637734058
+FDR-significant: 1984 (expected 1984)
+Large-effect up/down: 588 / 453 (expected 588 / 453)
+Identical significance membership: TRUE
+Identical large-effect classification: TRUE
+Identical logFC direction: TRUE
+Ranking statistics within tolerance: TRUE
+Numeric comparison:
+     field max_abs_difference spearman all_within_tolerance
+     logFC       5.107026e-15        1                 TRUE
+   AveExpr       4.973799e-14        1                 TRUE
+         t       8.881784e-15        1                 TRUE
+   P.Value       5.551115e-16        1                 TRUE
+ adj.P.Val       5.551115e-16        1                 TRUE
+         B       5.329071e-15        1                 TRUE
+Audit result: PASS within stated numerical tolerance
+Original files unchanged (MD5 verified). No GSEA executed.
