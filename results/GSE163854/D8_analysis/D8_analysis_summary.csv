@@ -1,0 +1,16 @@
+"metric","value"
+"Genes_tested",13410
+"Limma_FDR_lt_0.05",2781
+"Limma_FDR_lt_0.05_abs_logFC_ge_1",701
+"Large_DEG_UP",373
+"Large_DEG_DOWN",328
+"Primary_Hallmark_FDR_lt_0.05",15
+"Gene_logFC_limma_edgeR_rho",0.99809619166106
+"Gene_genomewide_direction_agreement",0.988441461595824
+"Large_DEG_direction_agreement",1
+"Hallmark_NES_limma_edgeR_rho",0.992605042016807
+"Hallmark_same_direction_fraction",0.98
+"Robust_Hallmark_count",14
+"D1_directional_matches",6
+"D1_primary_significant_matches",1
+"D1_robust_significant_matches",1

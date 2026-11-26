@@ -1,8 +1,7 @@
 # PARPi resistance transcriptomics
+Cross-dataset recurrence of transcriptional programs in acquired PARP-inhibitor resistance. This research repository tests whether discovery-derived Hallmark hypotheses recur across heterogeneous cancer models while separating accession-level evidence, model-level sensitivity and treatment exposure.
 
-Cross-dataset reproducibility of transcriptional programs in acquired PARP-inhibitor resistance across independent cancer models.
-
-**Status:** Private publication staging repository. The manuscript is in preparation. The central synthesis has passed numerical execution verification from frozen Hallmark inputs. Full upstream raw-data-to-results execution has not been established; release preparation is ongoing.
+**Version 1.0.0 candidate â€” private, unreleased.** The supported frozen-input synthesis passes 46/46 comparisons. Full raw-to-results reproduction is not established. Public release awaits the author's historical-email privacy decision; see [release audit](RELEASE_AUDIT.md).
 
 ## Study design
 
@@ -21,28 +20,8 @@ Eight GEO accessions were analyzed separately using expression-data-appropriate 
 
 GSE287274 was excluded because the required sample-level metadata and expression data could not be recovered reproducibly at the time of eligibility assessment.
 
-## Planned repository layout
 
-- `scripts/`: original analysis scripts and reviewed portable copies
-- `metadata/`: exact sample mappings, contrasts and source records
-- `results/`: frozen derived analysis outputs
-- `figures/`: final main Figures 1–5 and supplementary Figures S1–S4
-- `supplementary/`: Tables S1–S3
-- `environment/`: archived session information and dependency records
-- `provenance/`: source inventory, validation records and release checklist
-
-See [release checklist](provenance/RELEASE_CHECKLIST.md) for the status of these materials. A listed directory does not imply its scientific contents have already been uploaded.
-
-## Reproduction
-
-The following targeted reconstruction and execution checks have been completed:
- 
-- D4 primary differential expression: author-executed [reconstructed R script](scripts/18_GSE342642_primary_RECONSTRUCTED.R) reproduced filtering and all six gene-level statistics for 14,277 genes within numerical tolerance. [Verification record](provenance/D4_reconstruction/20261125_132322/VERIFICATION.md).
-- Historical D1–D6 Hallmark master: author-executed [reconstruction](scripts/FINAL_D1_D6_master_RECONSTRUCTED.R) reproduced 50 pathways and 49 columns from 11 archived Hallmark tables. [Verification record](provenance/D1_D6_reconstruction/20261125_133657/VERIFICATION.md).
-- Final synthesis: the author's isolated execution of script 62 (13 documented syntax repairs) and script 63 passed all 46 column comparisons against frozen reference tables, including five script 63 tables and 11 overlapping script 62 accession fields. Original input fingerprints remained unchanged. The complete historical script 62 output was not available for comparison. The release checklist records the execution pass; exact final evidence bundle transfer and inventory remain pending.
- 
-Final classification of the 50 Hallmark pathways:
- 
+## Final findings
 | Classification | Eight accessions | Twelve model/contrast units |
 |---|---:|---:|
 | Strong recurrent | 0 | 0 |
@@ -50,13 +29,28 @@ Final classification of the 50 Hallmark pathways:
 | Context-dependent | 24 | 35 |
 | Dataset/unit-specific | 12 | 5 |
 | Inconsistent | 10 | 5 |
- 
-The 12 units are not independent studies. These counts describe the specified recurrence criteria, not the absence of shared molecular resistance mechanisms. The historical six-accession integration is not the final result.
- 
-See the [reproduction status](provenance/REPRODUCTION_STATUS.md), [historical dependency audit](provenance/DEPENDENCY_AUDIT.md), and [D4 public input verification](provenance/D4_PUBLIC_INPUT_VERIFICATION.md). Full upstream execution order, acquisition instructions, environment records and portable validation files require further review. Do not run every numbered script indiscriminately or overwrite frozen outputs.
 
-## Citation and licensing
+The twelve units are not twelve independent studies. Nine of ten frozen discovery hypotheses are context-dependent at accession level. Glycolysis is inconsistent at accession level and context-dependent at model level. These classifications quantify recurrence under the specified rules; they do not rule out shared biological resistance mechanisms.
 
-Manuscript in preparation; no article DOI or archived code DOI has been assigned. Cite the software using [CITATION.cff](CITATION.cff). Original code is licensed under [MIT](LICENSE); eligible original derived tables and figures are CC BY 4.0, subject to rights held by the author. See [LICENSING.md](LICENSING.md) for scope and exclusions. Third-party materials remain subject to their original terms.
+D7 models agree in direction for 33/50 Hallmarks, with six concordant-significant pathways. D8 has 15 primary significant Hallmarks, 14 robust to sensitivity analysis. Adding D7/D8 changes 18/50 historical classifications.
 
-Author: Vegi Surya Vara Prasad.
+Treatment-state comparisons are complementary observational analyses, not causal drug-effect estimates. Observational and D5 exposure effects show Spearman rho -0.255702280912365 and directional agreement 24/50. Eighteen D5 exposure programs are robust; nine agree with the observational direction. Supplement S3 applies the documented strict separation hierarchy: Strong convergent/Convergent/D5-specific exposure/Observational-only/Weak/mixed = 0/9/9/2/30.
+
+![Author-generated graphical abstract](figures/graphical_abstract/Graphical_abstract.png)
+
+## Files and reproduction
+- [Final Figures 1-5/S1-S4 and captions](figures/publication/FIGURE_LEGENDS.md), [figure source map](figures/publication/FIGURE_SOURCE_MAP.csv), [graphical abstract source](scripts/publication/64_FINAL_graphical_abstract.R).
+- [Supplementary tables](supplementary/README.md), including [workbook](supplementary/Supplementary_Tables_S1-S3.xlsx).
+- [Supported reproduction instructions](REPRODUCING.md), [software environments](environment/README.md), [status and limitations](REPRODUCTION_STATUS.md).
+- [Raw-data acquisition](DATA_ACQUISITION.md), [dataset and contrast manifest](metadata/DATASET_CONTRAST_MANIFEST.csv).
+- [Repository map](STRUCTURE.md), [file manifest](RELEASE_MANIFEST.csv), [release checklist](provenance/RELEASE_CHECKLIST.md), [release notes](RELEASE_NOTES_v1.0.0.md).
+
+The isolated runner regenerates final integration from six frozen inputs and compares 46 columns. The archived D4 reconstruction reproduces 14,277 retained genes and six statistics; the historical D1-D6 reconstruction reproduces 50 pathways/49 columns from eleven source tables. These are distinct levels of evidence. Historical numbered scripts may write results or install packages; use the guarded runner rather than executing the entire directory.
+
+## Provenance limitations
+Recovered candidate scripts 18 and 45 are not proven executed historical originals. Historical software/database records are incomplete. Only eleven overlapping script-62 fields have frozen historical comparators. Final manuscript PNGs were recovered unchanged from the supplied author-review manuscript; editable final assembly sources were not recovered. The D6 article-accession discrepancy is disclosed in data documentation. Original manuscript text is not distributed. [AI-assisted preparation](AI_ASSISTANCE.md) is disclosed separately.
+
+## Author, license and citation
+Vegi Surya Vara Prasad â€” [ORCID 0009-0000-9344-7810](https://orcid.org/0009-0000-9344-7810). Intended journal: Computational Biology and Chemistry; manuscript in preparation.
+
+Original software: [MIT](LICENSE). Eligible original derived outputs: CC BY 4.0, with [scope](LICENSING.md) and [third-party attribution](THIRD_PARTY_RIGHTS.md). Cite [CITATION.cff](CITATION.cff). No article DOI, archive DOI or release date is invented.

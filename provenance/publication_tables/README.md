@@ -1,0 +1,2 @@
+# Historical table assembly evidence
+Files in this folder are the unchanged 24 November assembly records. Their missing-input, figure-numbering or citation-status statements describe that earlier snapshot and are superseded by the root release audit. S3 is a derived publication classification, not a recovered historical saved classification. Exact definitions and portable assembly source are retained in `scripts/publication/assemble_tables.py` and the supplementary README. The source manifest fingerprints frozen inputs. No DE/GSEA is involved.

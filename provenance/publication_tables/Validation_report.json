@@ -1,0 +1,43 @@
+{
+  "accession_counts": [
+    0,
+    4,
+    24,
+    12,
+    10
+  ],
+  "model_counts": [
+    0,
+    5,
+    35,
+    5,
+    5
+  ],
+  "treatment_counts": [
+    0,
+    9,
+    9,
+    2,
+    30
+  ],
+  "treatment_rho": -0.2557022809123649,
+  "treatment_direction_agreement": 24,
+  "D7_concordant_pathways": 33,
+  "D7_significant_pathways": 6,
+  "D8_significant_pathways": 15,
+  "rows_each": 50,
+  "pathway_checks": "All 50 rows matched to saved Figure 8 count/classification/treatment fields; all per-unit values copied from locked sources.",
+  "DE_GSEA_executed": false,
+  "treatment_named_memberships": "All 20 named non-weak pathways exactly match the recovered checkpoint. Remaining 30 are Weak/mixed.",
+  "D7_D8_summary_fields": "All 50 NES/significant-vote fields match saved Figure 8 sources.",
+  "source_integrity": "Every original CSV hash remains unchanged.",
+  "workbook_round_trip": "All cells in S1-S3 verified against assembled values; numeric precision, booleans and NA preserved; 50 rows each; zero formulas; header and identifier panes frozen.",
+  "document_visual_QA": "Rendered through installed Microsoft Word after packaged LibreOffice renderer was unavailable; page images inspected.",
+  "citation_verified_original_articles": 5,
+  "citation_unresolved": [
+    "D1 original article",
+    "D4 public accession and article",
+    "D6 article accession discrepancy GSE131231 versus GSE191231"
+  ],
+  "figure_artwork_rebuilt": false
+}

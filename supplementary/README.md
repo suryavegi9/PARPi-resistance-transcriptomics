@@ -1,3 +1,6 @@
-# Supplementary tables
+# Final supplementary tables
+S1: 50 Hallmarks, eight conservative accession votes. S2: 50 Hallmarks, twelve model/contrast units, not independent studies. S3: 50 treatment-state comparisons, assembled from frozen inputs with explicit D7 handling. CSVs and the workbook are byte-preserved publication outputs.
 
-Pending import of verified Tables S1 (accession integration), S2 (model/contrast sensitivity), and S3 (treatment-state evidence). Preserve numeric precision, missing values and source provenance.
+S3 categories, in priority order: Strong convergent = robust D5 + matching exposure direction + complete ON/OFF separation; Convergent = robust D5 + matching direction without complete separation; D5-specific exposure = robust D5 with opposite observational direction; Observational-only = not robust D5 + complete separation; Weak/mixed otherwise. Complete separation additionally requires concordant D7 model directions; OFF uses D1/D4/D6 and ON D2/D3/D7 with discordant D7 omitted from the mean. Counts are exactly 0/9/9/2/30. These are publication assembly rules, not an undocumented output of script 63.
+
+The historical assembly source is adapted only for input/output paths and safe isolated output. It preserves class logic. The original workbook formatter depended on the publication build's artifact-tool runtime; its archived source and notes are included for provenance, not advertised as a standalone supported workflow. The frozen workbook is the authoritative formatted deliverable.

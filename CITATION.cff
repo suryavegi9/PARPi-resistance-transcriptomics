@@ -8,3 +8,6 @@ authors:
     orcid: "https://orcid.org/0009-0000-9344-7810"
 license: MIT
 repository-code: "https://github.com/suryavegi9/PARPi-resistance-transcriptomics"
+
+version: "1.0.0"
+abstract: "Frozen-input transcriptomic recurrence synthesis across eight GEO accessions, with historical validation evidence and publication assets. Full raw-to-results reproducibility is not claimed."

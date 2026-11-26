@@ -1,0 +1,13 @@
+"Old_class","Final_class","Freq"
+"Directional","Directional",4
+"Directional","Context-dependent",4
+"Context-dependent","Context-dependent",15
+"Dataset-specific","Context-dependent",4
+"Inconsistent","Context-dependent",1
+"Directional","Dataset-specific",2
+"Dataset-specific","Dataset-specific",7
+"Inconsistent","Dataset-specific",3
+"Strong recurrent","Inconsistent",1
+"Directional","Inconsistent",2
+"Dataset-specific","Inconsistent",1
+"Inconsistent","Inconsistent",6

@@ -1,0 +1,51 @@
+"pathway","model9_class","model12_class","model12_n_UP","model12_n_DOWN","model12_n_sig_UP","model12_n_sig_DOWN"
+"HALLMARK_ADIPOGENESIS","Context-dependent","Context-dependent",3,9,2,3
+"HALLMARK_ALLOGRAFT_REJECTION","Directional","Context-dependent",4,8,1,2
+"HALLMARK_ANDROGEN_RESPONSE","Unit-specific","Context-dependent",6,6,1,1
+"HALLMARK_ANGIOGENESIS","Directional","Inconsistent",5,7,0,2
+"HALLMARK_APICAL_JUNCTION","Inconsistent","Inconsistent",7,5,2,0
+"HALLMARK_APICAL_SURFACE","Unit-specific","Unit-specific",6,6,1,0
+"HALLMARK_APOPTOSIS","Context-dependent","Context-dependent",6,6,3,1
+"HALLMARK_BILE_ACID_METABOLISM","Inconsistent","Inconsistent",6,6,0,0
+"HALLMARK_CHOLESTEROL_HOMEOSTASIS","Directional","Context-dependent",4,8,1,4
+"HALLMARK_COAGULATION","Context-dependent","Context-dependent",7,5,4,1
+"HALLMARK_COMPLEMENT","Context-dependent","Context-dependent",6,6,2,2
+"HALLMARK_DNA_REPAIR","Context-dependent","Context-dependent",7,5,2,2
+"HALLMARK_E2F_TARGETS","Context-dependent","Context-dependent",5,7,5,5
+"HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION","Context-dependent","Context-dependent",6,6,5,3
+"HALLMARK_ESTROGEN_RESPONSE_EARLY","Context-dependent","Context-dependent",6,6,3,2
+"HALLMARK_ESTROGEN_RESPONSE_LATE","Context-dependent","Context-dependent",7,5,2,2
+"HALLMARK_FATTY_ACID_METABOLISM","Context-dependent","Context-dependent",7,5,2,1
+"HALLMARK_G2M_CHECKPOINT","Context-dependent","Context-dependent",5,7,4,4
+"HALLMARK_GLYCOLYSIS","Strong recurrent","Context-dependent",5,7,1,5
+"HALLMARK_HEDGEHOG_SIGNALING","Directional","Directional",8,4,0,0
+"HALLMARK_HEME_METABOLISM","Context-dependent","Context-dependent",6,6,2,1
+"HALLMARK_HYPOXIA","Context-dependent","Context-dependent",7,5,4,3
+"HALLMARK_IL2_STAT5_SIGNALING","Directional","Context-dependent",3,9,1,4
+"HALLMARK_IL6_JAK_STAT3_SIGNALING","Unit-specific","Context-dependent",6,6,1,2
+"HALLMARK_INFLAMMATORY_RESPONSE","Strong recurrent","Context-dependent",4,8,1,6
+"HALLMARK_INTERFERON_ALPHA_RESPONSE","Context-dependent","Context-dependent",8,4,2,2
+"HALLMARK_INTERFERON_GAMMA_RESPONSE","Context-dependent","Context-dependent",7,5,3,3
+"HALLMARK_KRAS_SIGNALING_DN","Context-dependent","Context-dependent",8,4,4,1
+"HALLMARK_KRAS_SIGNALING_UP","Inconsistent","Context-dependent",6,6,1,3
+"HALLMARK_MITOTIC_SPINDLE","Unit-specific","Unit-specific",6,6,0,1
+"HALLMARK_MTORC1_SIGNALING","Strong recurrent","Context-dependent",4,8,2,5
+"HALLMARK_MYC_TARGETS_V1","Context-dependent","Context-dependent",6,6,4,5
+"HALLMARK_MYC_TARGETS_V2","Context-dependent","Context-dependent",6,6,2,4
+"HALLMARK_MYOGENESIS","Context-dependent","Context-dependent",6,6,2,2
+"HALLMARK_NOTCH_SIGNALING","Context-dependent","Context-dependent",6,6,1,1
+"HALLMARK_OXIDATIVE_PHOSPHORYLATION","Context-dependent","Context-dependent",7,5,4,3
+"HALLMARK_P53_PATHWAY","Context-dependent","Context-dependent",6,6,2,3
+"HALLMARK_PANCREAS_BETA_CELLS","Directional","Unit-specific",5,7,1,0
+"HALLMARK_PEROXISOME","Directional","Unit-specific",5,7,1,0
+"HALLMARK_PI3K_AKT_MTOR_SIGNALING","Directional","Inconsistent",5,7,0,3
+"HALLMARK_PROTEIN_SECRETION","Directional","Directional",4,8,0,1
+"HALLMARK_REACTIVE_OXYGEN_SPECIES_PATHWAY","Directional","Context-dependent",6,6,2,3
+"HALLMARK_SPERMATOGENESIS","Directional","Unit-specific",6,6,0,1
+"HALLMARK_TGF_BETA_SIGNALING","Unit-specific","Inconsistent",7,5,2,0
+"HALLMARK_TNFA_SIGNALING_VIA_NFKB","Context-dependent","Context-dependent",5,7,5,5
+"HALLMARK_UNFOLDED_PROTEIN_RESPONSE","Strong recurrent","Directional",3,9,0,5
+"HALLMARK_UV_RESPONSE_DN","Context-dependent","Context-dependent",5,7,3,2
+"HALLMARK_UV_RESPONSE_UP","Directional","Context-dependent",5,7,2,3
+"HALLMARK_WNT_BETA_CATENIN_SIGNALING","Directional","Directional",10,2,1,0
+"HALLMARK_XENOBIOTIC_METABOLISM","Directional","Directional",8,4,2,0

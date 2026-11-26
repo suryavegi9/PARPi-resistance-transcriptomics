@@ -1,0 +1,14 @@
+[
+  {
+    "table": "S1",
+    "all_cells_match_within_1e_13": true
+  },
+  {
+    "table": "S2",
+    "all_cells_match_within_1e_13": true
+  },
+  {
+    "table": "S3",
+    "all_cells_match_within_1e_13": true
+  }
+]

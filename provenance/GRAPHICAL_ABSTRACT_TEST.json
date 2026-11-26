@@ -1,0 +1,13 @@
+{
+  "script_SHA256": "ed88208758161839b838b23bb53e6e08671edbd0cb6f5cb0e37558e6a738dd2b",
+  "executed_from_committed_candidate": "35fe67b2848c07956f98f3f4f78d5847f7735cba",
+  "isolated_execution_pass": true,
+  "PNG_pixels_identical_to_author_original": true,
+  "original_artwork_not_modified": true,
+  "outputs": [
+    "Graphical_abstract.pdf",
+    "Graphical_abstract.png",
+    "Graphical_abstract.tiff",
+    "sessionInfo_graphical_abstract.txt"
+  ]
+}

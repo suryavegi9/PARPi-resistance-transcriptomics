@@ -1,0 +1,66 @@
+PARPi manuscript publication assembly
+Prepared 24 November 2026 for Computational Biology and Chemistry
+
+DELIVERABLES
+
+Supplementary_Tables_S1-S3.xlsx: all 50 Hallmarks in each of S1, S2 and S3, with a Notes worksheet and field dictionary. Tables are sortable/filterable and freeze the identifiers and header. Numerical cells retain their underlying precision. CSV copies are supplied for reuse.
+
+Figure_Legends_and_Supplementary_Captions.docx: complete draft captions for the recovered Figure 1–8 numbering and Tables S1–S3. Plain-text copy supplied. These additions were not merged into the older D1–D6 manuscript.
+
+Dataset_Citations.docx and Dataset_Citation_Metadata.csv: verified metadata and explicit unresolved fields. Verified_Dataset_References.ris includes five confirmed original articles, without promoting the D6 candidate to a verified citation.
+
+Source_manifest.csv and Validation_report.json: source hashes and checkpoint checks. Figure_source_map.csv identifies the saved panels and generating scripts used for the legends. All source paths in these audit files are relative to the original PARPi_resistance_project folder.
+
+LOCKED RESULTS
+
+S1 accession categories: 0 strongly recurrent, 4 directional, 24 context-dependent, 12 dataset-specific, 10 inconsistent.
+S2 model/contrast categories: 0 strongly recurrent, 5 directional, 35 context-dependent, 5 unit-specific, 5 inconsistent.
+S3 treatment categories: 0 strong convergent, 9 convergent, 9 D5-specific exposure, 2 observational-only, 30 weak/mixed.
+Treatment Spearman rho: -0.2557022809123649. Directional agreement: 24/50.
+D7: 33/50 model-concordant directions and 6 significant accession votes. D8: 15 significant primary Hallmarks.
+
+ASSEMBLY METHOD
+
+Original research files were read without modification. No R analysis script was executed. No differential expression, normalization, GSEA, threshold optimization or biological model was rerun.
+
+S1 joins the frozen D1–D6 master to the saved D7A/D7B and D8 Hallmark outputs. D1–D6 formal votes are copied unchanged; D7/D8 contribution rules follow script 63. Final counts and classifications match every pathway in Figure8_accession_source_table.csv.
+
+S2 reconstructs the 12 recorded units from those same locked source values, preserving the special PSN1 P1 robustness gate. Final counts and classifications match every pathway in Figure8_model_level_source_table.csv. HCC1806 H1/H2 are contrasts within one cellular model, not independent biological models or studies.
+
+S3 preserves script 63's ON/OFF values and all numeric fields in Figure8_treatment_state_source_table.csv. The five-category hierarchy follows historical script 47. The strict D7-aware separation rule is recorded in the recovered conversation (6b044467-bbf4-83ee-b71d-4c324435c209, publication-assembly turn): D7 must be concordant and all three ON values must separate from all three OFF values. Script 63 alone does not contain this five-category rule. The resulting categories reproduce both the locked counts and the named pathways in the recovered checkpoint. This new publication table is explicitly an assembly of frozen outputs, not an original saved D1–D8 classification file.
+
+Missing D7 NES is represented as NA for model discordance. It is not replaced by zero. Formal direction code zero means no vote. No composite accession P values have been invented. The CSVs and workbook preserve all 50 pathways.
+
+CITATION STATUS AND REMAINING GAPS
+
+Confirmed original-paper relationships: D2 GSE117765 (PMID 31219654), D3 GSE153867 (33966038), D5 GSE202434 (35864202), D7 GSE165914 (34367977), D8 GSE163854 (34316715 via SuperSeries GSE165052).
+
+D1: GEO GSE235980 is verified but lists no original paper. A later reanalysis must not be substituted for the generating study. A dataset citation is provided.
+
+D4: GSE342642 is present throughout the locked local project. An authoritative public GEO record and original article could not be verified through direct retrieval or exact-accession searches. Obtain the correct accessible record or accession confirmation before asserting that all eight datasets are publicly retrievable. The recorded accession has not been changed.
+
+D6: GEO GSE191231 matches the locked GTFB-PDX1009 data and reports citation missing. Bitler et al., Molecular Carcinogenesis 62 (2023), 1717–1730, DOI 10.1002/mc.23610, is a strong candidate original paper based on its model, sample sizes and experimental design. Its inspected RNA-seq Methods explicitly names and links GSE131231, not GSE191231. This conflict requires an authoritative correction or other explicit linkage. It is recorded rather than silently repaired.
+
+GEO titles are kept separate from article titles. Unverified metadata fields remain empty and are explained in the metadata file. Verification uses accessible current authoritative web records; it is not a claim that every missing publication does not exist.
+
+FIGURE ALIGNMENT
+
+Figure 1 uses the refined D1 A–C panels. The separate D1 file named Figure_2_Hallmark_GSEA_refined is not the manuscript Figure 2 (which is D2). It has no assigned main-text panel in the recovered map. If retained, assign it explicitly as an additional/supplementary panel and update the cross-reference.
+
+Figure 5 is the interim D1–D4 integration. Its historical counts are described as historical in the new legend and are not used as the final result. Figure 8 is the authoritative final synthesis. D7/D8 dataset-specific figures remain unnumbered supporting candidates in the recovered map.
+
+The existing Figure 8 artwork still has the previously reported collected-legend/Panel D subtitle overlap. This task provides its complete legend; it does not claim to have repaired or re-exported that artwork. Before submission, shorten the Panel D subtitle and place rho = -0.256 and 24/50 inside the panel while retaining all underlying values. Check figure font embedding and labels, including Greek characters, in final exported artwork.
+
+SUBMISSION FORMAT
+
+The package provides editable Word captions and an Excel supplement plus machine-readable tables, concise supplementary captions and a reference-manager import. This follows standard manuscript-component practice and supports a Computational Biology and Chemistry submission build.
+
+The journal's live Guide for Authors URL returned HTTP 403 during this build, so current journal-specific word limits, file limits and all submission-portal requirements are not certified here. Recheck the live guide at submission:
+https://www.sciencedirect.com/journal/computational-biology-and-chemistry/publish/guide-for-authors
+The publisher's official journal scope is available at:
+https://shop.elsevier.com/journals/computational-biology-and-chemistry/1476-9271
+General Elsevier guidance on editable supplements and descriptive captions was consulted at:
+https://www.elsevier.com/subject/next/guide-for-authors
+This general guidance is not substituted for unavailable journal-specific requirements.
+
+This is the requested supplementary-table, legend and citation build, not a submitted manuscript or a claim that the full paper is submission-complete. Resolve the citation/accession and artwork issues above, reconcile figure numbering in the current full manuscript, and add the permanent code/data repository identifiers before final submission.
