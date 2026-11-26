@@ -1,0 +1,12 @@
+{
+  "files_scanned": 248,
+  "reachable_commits": 46,
+  "unique_history_blobs_scanned": 246,
+  "working_tree_findings": [],
+  "history_blob_findings": [],
+  "commit_message_findings": [],
+  "commits_with_personal_email": 45,
+  "secret_values_printed": false,
+  "scope": "UTF-8 text; nested ZIP/XML; PDF text/metadata; PNG/TIFF metadata; all reachable commit messages and metadata. Pattern-based review cannot prove absence of every secret.",
+  "large_files": []
+}

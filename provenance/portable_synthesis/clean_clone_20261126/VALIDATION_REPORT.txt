@@ -1,0 +1,7 @@
+Portable final synthesis verification
+Columns passed: 46 / 46
+Script 63: 35 columns in five tables. Script 62: 11 overlapping columns.
+Frozen inputs and portable scripts unchanged: TRUE
+Tolerance: absolute 1e-12 for numeric fields; exact IDs/categories/logicals and missingness.
+No DE or GSEA executed. Generated Figure 8 is validation artwork, not publication Figure 5.
+Complete historical script-62 master equivalence and raw-to-results reproduction are not claimed.

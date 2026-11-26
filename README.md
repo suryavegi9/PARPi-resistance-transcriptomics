@@ -1,7 +1,7 @@
 # PARPi resistance transcriptomics
 Cross-dataset recurrence of transcriptional programs in acquired PARP-inhibitor resistance. This research repository tests whether discovery-derived Hallmark hypotheses recur across heterogeneous cancer models while separating accession-level evidence, model-level sensitivity and treatment exposure.
 
-**Version 1.0.0 candidate — private, unreleased.** The supported frozen-input synthesis passes 46/46 comparisons. Full raw-to-results reproduction is not established. Public release awaits the author's historical-email privacy decision; see [release audit](RELEASE_AUDIT.md).
+**Version 1.0.0 candidate â€” private, unreleased.** The supported frozen-input synthesis passes 46/46 comparisons. Full raw-to-results reproduction is not established. Public release awaits the author's historical-email privacy decision; see [release audit](RELEASE_AUDIT.md).
 
 ## Study design
 
@@ -34,7 +34,7 @@ The twelve units are not twelve independent studies. Nine of ten frozen discover
 
 D7 models agree in direction for 33/50 Hallmarks, with six concordant-significant pathways. D8 has 15 primary significant Hallmarks, 14 robust to sensitivity analysis. Adding D7/D8 changes 18/50 historical classifications.
 
-Treatment-state comparisons are complementary observational analyses, not causal drug-effect estimates. Observational and D5 exposure effects show Spearman rho -0.255702280912365 and directional agreement 24/50. Eighteen D5 exposure programs are robust; nine agree with the observational direction. Supplement S3 applies the documented strict separation hierarchy: Strong convergent/Convergent/D5-specific exposure/Observational-only/Weak-mixed = 0/9/9/2/30.
+Treatment-state comparisons are complementary observational analyses, not causal drug-effect estimates. Observational and D5 exposure effects show Spearman rho -0.255702280912365 and directional agreement 24/50. Eighteen D5 exposure programs are robust; nine agree with the observational direction. Supplement S3 applies the documented strict separation hierarchy: Strong convergent/Convergent/D5-specific exposure/Observational-only/Weak/mixed = 0/9/9/2/30.
 
 ![Author-generated graphical abstract](figures/graphical_abstract/Graphical_abstract.png)
 
@@ -51,6 +51,6 @@ The isolated runner regenerates final integration from six frozen inputs and com
 Recovered candidate scripts 18 and 45 are not proven executed historical originals. Historical software/database records are incomplete. Only eleven overlapping script-62 fields have frozen historical comparators. Final manuscript PNGs were recovered unchanged from the supplied author-review manuscript; editable final assembly sources were not recovered. The D6 article-accession discrepancy is disclosed in data documentation. Original manuscript text is not distributed. [AI-assisted preparation](AI_ASSISTANCE.md) is disclosed separately.
 
 ## Author, license and citation
-Vegi Surya Vara Prasad — [ORCID 0009-0000-9344-7810](https://orcid.org/0009-0000-9344-7810). Intended journal: Computational Biology and Chemistry; manuscript in preparation.
+Vegi Surya Vara Prasad â€” [ORCID 0009-0000-9344-7810](https://orcid.org/0009-0000-9344-7810). Intended journal: Computational Biology and Chemistry; manuscript in preparation.
 
 Original software: [MIT](LICENSE). Eligible original derived outputs: CC BY 4.0, with [scope](LICENSING.md) and [third-party attribution](THIRD_PARTY_RIGHTS.md). Cite [CITATION.cff](CITATION.cff). No article DOI, archive DOI or release date is invented.

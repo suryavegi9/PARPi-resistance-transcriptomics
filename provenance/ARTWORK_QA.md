@@ -1,0 +1,6 @@
+# Publication artwork review
+Nine embedded manuscript PNGs (Figures 1-5, S1-S4) were extracted without resampling. Source document SHA-256, member names and PNG hashes are recorded in figures/publication/FIGURE_SOURCE_MAP.csv. Pixel dimensions are 2160 wide with respective heights 1850, 1833, 1952, 2805, 1899, 3488, 1082, 1918 and 1918; metadata is approximately 300 dpi. Exact extraction was independently repeated and all nine hashes matched.
+
+All nine PNGs and the author graphical-abstract PNG were visually inspected using contact sheets at readable scale. No clipping, displaced panels or major label overlaps was identified. Dense scatter annotations and the tall S1 composition remain as in the manuscript source. Final Figure 5 is the corrected manuscript composition, not validation Figure 8. Captions and numbering were matched to their associated manuscript drawings.
+
+The exact graphical-abstract R generator was executed in an isolated tree; the PNG pixel array matched the original exactly. The originally saved PDF/PNG/TIFF and session are preserved. Native editable final composition sources for the nine manuscript plots were not recovered. No visual equivalence claim is made for regenerated validation Figure 8 PDFs, which report Greek-glyph device warnings.
