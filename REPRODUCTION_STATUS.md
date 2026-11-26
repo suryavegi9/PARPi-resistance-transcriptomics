@@ -11,4 +11,4 @@
 | Historical raw-to-results pipeline | NOT CLAIMED | Environment/version records incomplete; no complete execution performed. |
 | Complete historical script-62 master | NOT CLAIMED | Regenerated master retained; full historical comparator unavailable. |
 
-See the root [release audit](RELEASE_AUDIT.md), dated historical evidence directories and [source reconciliation](provenance/HISTORICAL_SOURCE_RECONCILIATION.md). No current endpoint uses historical D1-D4, six-accession or nine-unit counts as final results.
+See the dated historical evidence directories and [source reconciliation](provenance/HISTORICAL_SOURCE_RECONCILIATION.md). No current endpoint uses historical D1-D4, six-accession or nine-unit counts as final results.

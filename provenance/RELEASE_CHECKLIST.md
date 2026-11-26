@@ -10,4 +10,4 @@
 - [ ] Author explicitly chooses existing-history email publication or a separate clean-history repository.
 - [ ] Author approves public visibility and archival DOI publication.
 
-Native editable final figure assembly source remains unavailable and is disclosed; authoritative raster outputs are present. Historical raw-to-results execution is not claimed. Public release must wait for the privacy decision. See [audit](../RELEASE_AUDIT.md) and [release procedure](../PUBLIC_RELEASE_STEPS.md).
+Native editable final figure assembly source remains unavailable and is disclosed; authoritative raster outputs are present. Historical raw-to-results execution is not claimed. Public release must wait for the privacy decision. See [reproduction status](../REPRODUCTION_STATUS.md) and [release procedure](../PUBLIC_RELEASE_STEPS.md).

@@ -1,7 +1,7 @@
 # PARPi resistance transcriptomics
 Cross-dataset recurrence of transcriptional programs in acquired PARP-inhibitor resistance. This research repository tests whether discovery-derived Hallmark hypotheses recur across heterogeneous cancer models while separating accession-level evidence, model-level sensitivity and treatment exposure.
 
-**Version 1.0.0 candidate â€” private, unreleased.** The supported frozen-input synthesis passes 46/46 comparisons. Full raw-to-results reproduction is not established. Public release awaits the author's historical-email privacy decision; see [release audit](RELEASE_AUDIT.md).
+The supported frozen-input synthesis passes all 46 column comparisons. Full raw-to-results reproduction is not established. See [reproduction status](REPRODUCTION_STATUS.md) for validation evidence and limitations.
 
 ## Study design
 

@@ -13,4 +13,4 @@
 | `environment/` | Session index, observed versions, historical execution side effects |
 | `provenance/` | Three successful historical validation sets, release test evidence and source reconciliation |
 
-`STAGING_*` and earlier provenance audits are historical records, superseded for current completeness by RELEASE_AUDIT.md. The release manifest excludes `.git` and its own bytes to avoid a self-referential checksum. Git commits provide integrity for the manifest itself.
+`STAGING_*` and earlier provenance audits are historical records, superseded for current completeness by REPRODUCTION_STATUS.md. The release manifest excludes `.git` and its own bytes to avoid a self-referential checksum. Git commits provide integrity for the manifest itself.

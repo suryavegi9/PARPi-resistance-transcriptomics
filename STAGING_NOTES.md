@@ -1,4 +1,4 @@
-> Historical record; current completeness is documented in the root RELEASE_AUDIT.md. Pending statements below describe the earlier snapshot.
+> Historical record; current completeness is documented in the root REPRODUCTION_STATUS.md. Pending statements below describe the earlier snapshot.
 
 # Initial repository import — review required
 
