@@ -1,3 +1,8 @@
-# Computational environment
+# Software environments
+The supported final synthesis was tested with R 4.6.1 on Windows, ggplot2 4.0.3 and patchwork 1.3.2. This is the release-validation environment, not a claim about every historical analysis. Install plotting dependencies separately with `install.packages(c("ggplot2", "patchwork"))`; CRAN versions can change. Consult the recorded session for transitive versions. No lockfile claiming historical reconstruction has been fabricated.
 
-Pending import of archived sessionInfo records and dependency versions. Historical records may be incomplete; do not invent versions or describe an untested environment as reproducible.
+[SESSION_INDEX.csv](SESSION_INDEX.csv) fingerprints all recovered nonempty session records: D2/D3 historical analysis, D4 and D1-D6 reconstructions, final synthesis and graphical abstract. Empty D7/D8 and nested figure session files do not establish environments and are omitted. The final validation runner captures session information again after loading plotting libraries.
+
+Historical records include limma 3.68.5, clusterProfiler 4.20.0 and msigdbr 26.1.1 in D2/D3, and edgeR 4.10.7/statmod 1.5.2 in D4 reconstruction. These are observations from the respective sessions, not universal pinned versions. An installed msigdbr package version does not prove the precise underlying MSigDB release. Historical annotation/database release versions remain incompletely recorded. See [package observations](PACKAGE_OBSERVATIONS.csv) and [side-effect inventory](HISTORICAL_SIDE_EFFECTS.csv).
+
+The download script uses Python standard library only. Table assembly/verification uses pandas and NumPy; workbook inspection uses openpyxl. CFF validation uses PyYAML and jsonschema with the official CFF 1.2 schema. These are release tooling, not biological analysis dependencies.

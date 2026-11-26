@@ -1,3 +1,5 @@
+> Historical record; current completeness is documented in the root RELEASE_AUDIT.md. Pending statements below describe the earlier snapshot.
+
 # Static reproducibility dependency audit — 2026-11-25
 
 Scope: inspected the original project ZIP, archived scripts and input/output paths; no R expression model, enrichment or integration execution. This is not an end-to-end reproducibility certification.

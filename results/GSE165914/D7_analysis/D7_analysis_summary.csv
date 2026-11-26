@@ -1,0 +1,17 @@
+"metric","value"
+"D7A_filtered_genes",15253
+"D7A_FDR_lt_0.05",7207
+"D7A_large_DEGs",2305
+"D7A_UP_large_DEGs",1175
+"D7A_DOWN_large_DEGs",1130
+"D7B_filtered_genes",15996
+"D7B_FDR_lt_0.05",7514
+"D7B_large_DEGs",3920
+"D7B_UP_large_DEGs",1518
+"D7B_DOWN_large_DEGs",2402
+"Hallmark_NES_Spearman_rho",0.376806722689076
+"Hallmark_same_direction_n",33
+"Hallmark_same_direction_fraction",0.66
+"D7_concordant_significant_Hallmarks",6
+"D1_frozen_direction_matches",4
+"D1_frozen_significant_direction_matches",2

@@ -1,3 +1,4 @@
-# Publication figures
+# Artwork identities
+Final manuscript Figures 1-5 and S1-S4 are in `publication/`, with their exact captions and source mapping. Nine native PNG objects were recovered byte-for-byte from the latest available author-review manuscript; their ~300 dpi metadata and full pixel dimensions are preserved. Visual inspection of all nine found no clipping or major overlap; dense plot labels remain as in the approved source. Native editable/vector final assembly source was not recovered. Historical plotting scripts are retained but cannot be claimed to recreate this exact final composition.
 
-Final architecture: Figure 1 D1 discovery; Figure 2 D2–D4 validation; Figure 3 D5 treatment state; Figure 4 D6–D8 validation and robustness; Figure 5 final synthesis. Supplementary Figures S1–S4 retain dataset-level detail. Composite artwork and final vector exports are pending.
+`graphical_abstract/` contains the author-executed R-generated PDF/PNG/TIFF and nonempty session record, not the earlier prototype. Its exact generator is `scripts/publication/64_FINAL_graphical_abstract.R`. Historical Figure 8 under results and validation provenance is not substituted for final Figure 5.

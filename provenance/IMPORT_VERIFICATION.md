@@ -1,3 +1,5 @@
+> Historical record; current completeness is documented in the root RELEASE_AUDIT.md. Pending statements below describe the earlier snapshot.
+
 # Import verification — 2026-11-25
 
 The user's browser upload flattened the staging directory. Commit f333115a5e776b12fbf835f13d641201d58f348d restores the exact paths in STAGING_MANIFEST.csv for 77 files (54 R scripts and 23 scientific outputs/metadata/environment records). The existing checkpoint was compared after newline normalization and replaced by the archived uploaded copy. All 77 relocated Git blob IDs were verified unchanged; other repository files were preserved, including the original staging ZIP. All 23 unchanged scientific/output/metadata files match the manifest byte lengths. This verifies relocation integrity, not independent SHA-256 recomputation against the original project archive.

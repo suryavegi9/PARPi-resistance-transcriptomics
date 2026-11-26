@@ -1,3 +1,5 @@
+> Historical record; current completeness is documented in the root RELEASE_AUDIT.md. Pending statements below describe the earlier snapshot.
+
 # Initial repository import — review required
 
 This package contains 53 numbered top-level script copies plus the shorter D1 script variant, five exact frozen synthesis inputs, original final synthesis output files, selected sample metadata and two nonempty session records. All staged scientific outputs are byte-identical to the supplied source archive. The only intended script modification is replacement of each workstation-specific `setwd` invocation with `setwd(Sys.getenv("PARPI_PROJECT_ROOT", unset = getwd()))`; run from the repository root or specify the environment variable. Script execution was NOT tested. Original versions remain in the supplied archive; see STAGING_MANIFEST.csv for original and staged SHA-256 digests.

@@ -1,0 +1,4 @@
+"parameter","value","rule"
+"Eligible_accessions",8,"N"
+"Directional_support_threshold",6,"ceil(2N/3)"
+"Strong_significant_support_threshold",4,"ceil(N/2)"

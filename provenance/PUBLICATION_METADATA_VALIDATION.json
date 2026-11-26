@@ -1,0 +1,31 @@
+{
+  "workbook": [
+    {
+      "sheet": "Table_S1",
+      "rows_including_header": 51,
+      "columns": 39,
+      "mismatched_cells": [],
+      "pass": true
+    },
+    {
+      "sheet": "Table_S2",
+      "rows_including_header": 51,
+      "columns": 48,
+      "mismatched_cells": [],
+      "pass": true
+    },
+    {
+      "sheet": "Table_S3",
+      "rows_including_header": 51,
+      "columns": 27,
+      "mismatched_cells": [],
+      "pass": true
+    }
+  ],
+  "CFF_schema": "https://raw.githubusercontent.com/citation-file-format/citation-file-format/1.2.0/schema.json",
+  "CFF_schema_sha256": "0b8d22140da702d766df318dcff3a91af2f39521298dcf36d76315fd99cc169b",
+  "CFF_valid": true,
+  "CFF_version": "1.0.0",
+  "article_DOI_supplied": false,
+  "workbook_modified": false
+}

@@ -1,0 +1,153 @@
+TY  - JOUR
+AU  - Yamamoto TM
+AU  - McMellen A
+AU  - Watson ZL
+AU  - Aguilera J
+AU  - Ferguson R
+AU  - Nurmemmedov E
+AU  - Thakar T
+AU  - Moldovan GL
+AU  - Kim H
+AU  - Cittelly DM
+AU  - Joglar AM
+AU  - Brennecke EP
+AU  - Wilson H
+AU  - Behbakht K
+AU  - Sikora MJ
+AU  - Bitler BG
+TI  - Activation of Wnt signaling promotes olaparib resistant ovarian cancer
+JO  - Molecular Carcinogenesis
+PY  - 2019
+VL  - 58
+IS  - 10
+SP  - 1770-1782
+DO  - 10.1002/mc.23064
+AN  - 31219654
+UR  - https://pubmed.ncbi.nlm.nih.gov/31219654/
+N1  - Dataset GSE117765. GEO links PMID 31219654. Cite the journal paper rather than the earlier bioRxiv version.
+ER  - 
+
+TY  - JOUR
+AU  - Tan J
+AU  - Zheng X
+AU  - Li M
+AU  - Ye F
+AU  - Song C
+AU  - Xu C
+AU  - Zhang X
+AU  - Li W
+AU  - Wang Y
+AU  - Zeng S
+AU  - Li H
+AU  - Chen G
+AU  - Huang X
+AU  - Ma D
+AU  - Liu D
+AU  - Gao Q
+TI  - C/EBPβ promotes poly(ADP-ribose) polymerase inhibitor resistance by enhancing homologous recombination repair in high-grade serous ovarian cancer
+JO  - Oncogene
+PY  - 2021
+VL  - 40
+IS  - 22
+SP  - 3845-3858
+DO  - 10.1038/s41388-021-01788-4
+AN  - 33966038
+UR  - https://pubmed.ncbi.nlm.nih.gov/33966038/
+N1  - Dataset GSE153867. NCBI BioProject PRJNA644373 links the paper; the original publisher article explicitly states GSE153867.
+ER  - 
+
+TY  - JOUR
+AU  - Ding X
+AU  - Zhu Z
+AU  - Lapek J
+AU  - McMillan EA
+AU  - Zhang A
+AU  - Chung CY
+AU  - Dubbury S
+AU  - Lapira J
+AU  - Firdaus S
+AU  - Kang X
+AU  - Gao J
+AU  - Oyer J
+AU  - Chionis J
+AU  - Rollins RA
+AU  - Li L
+AU  - Niessen S
+AU  - Bagrodia S
+AU  - Zhang L
+AU  - VanArsdale T
+TI  - PARP1-SNAI2 transcription axis drives resistance to PARP inhibitor, Talazoparib
+JO  - Scientific Reports
+PY  - 2022
+VL  - 12
+IS  - 1
+SP  - 12501
+DO  - 10.1038/s41598-022-16623-3
+AN  - 35864202
+UR  - https://pubmed.ncbi.nlm.nih.gov/35864202/
+N1  - Dataset GSE202434. GEO links PMID 35864202; GSE202434 is the RNA-seq SubSeries of GSE202438. Series contributor list was not recovered in the inspected excerpt; contact Xia Ding is not silently substituted for the contributor list.
+ER  - 
+
+TY  - JOUR
+AU  - Gajan A
+AU  - Sarma A
+AU  - Kim S
+AU  - Gurdziel K
+AU  - Wu GS
+AU  - Shekhar MP
+TI  - Analysis of Adaptive Olaparib Resistance Effects on Cisplatin Sensitivity in Triple Negative Breast Cancer Cells
+JO  - Frontiers in Oncology
+PY  - 2021
+VL  - 11
+SP  - 694793
+DO  - 10.3389/fonc.2021.694793
+AN  - 34367977
+UR  - https://pubmed.ncbi.nlm.nih.gov/34367977/
+N1  - Dataset GSE165914. GEO links PMID 34367977 and the paper explicitly identifies GSE165914. GEO contributor spelling retained as deposited.
+ER  - 
+
+TY  - JOUR
+AU  - Hurley RM
+AU  - McGehee CD
+AU  - Nesic K
+AU  - Correia C
+AU  - Weiskittel TM
+AU  - Kelly RL
+AU  - Venkatachalam A
+AU  - Hou X
+AU  - Pathoulas NM
+AU  - Meng XW
+AU  - Kondrashova O
+AU  - Radke MR
+AU  - Schneider PA
+AU  - Flatten KS
+AU  - Peterson KL
+AU  - Becker MA
+AU  - Wong EM
+AU  - Southey MS
+AU  - Dobrovic A
+AU  - Lin KK
+AU  - Harding TC
+AU  - McNeish I
+AU  - Ross CA
+AU  - Wagner JM
+AU  - Wakefield MJ
+AU  - Scott CL
+AU  - Haluska P
+AU  - Wahner Hendrickson AE
+AU  - Karnitz LM
+AU  - Swisher EM
+AU  - Li H
+AU  - Weroha SJ
+AU  - Kaufmann SH
+TI  - Characterization of a RAD51C-silenced high-grade serous ovarian cancer model during development of PARP inhibitor resistance
+JO  - NAR Cancer
+PY  - 2021
+VL  - 3
+IS  - 3
+SP  - zcab028
+DO  - 10.1093/narcan/zcab028
+AN  - 34316715
+UR  - https://pubmed.ncbi.nlm.nih.gov/34316715/
+N1  - Dataset GSE163854. GSE163854 explicitly belongs to GSE165052. The original paper deposits GSE165052; NCBI BioProject PRJNA693039 links Hurley et al. The SubSeries itself reports citation missing.
+ER  - 

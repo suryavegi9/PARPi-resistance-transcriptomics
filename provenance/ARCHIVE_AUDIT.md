@@ -1,3 +1,5 @@
+> Historical record; current completeness is documented in the root RELEASE_AUDIT.md. Pending statements below describe the earlier snapshot.
+
 # Source archive audit — 2026-11-25
 
 Inspected the supplied PARPi_resistance_project.zip archive without executing any biological analysis.

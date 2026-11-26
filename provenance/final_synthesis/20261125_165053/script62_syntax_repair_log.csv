@@ -1,0 +1,66 @@
+"repair_number","original","corrected"
+1,"old_raw[
+        [
+          old_cols[""pathway""]
+        ]
+      ]","old_raw[[old_cols[""pathway""]]]"
+2,"old_raw[
+        [
+          old_cols[""nUP""]
+        ]
+      ]","old_raw[[old_cols[""nUP""]]]"
+3,"old_raw[
+        [
+          old_cols[""nDOWN""]
+        ]
+      ]","old_raw[[old_cols[""nDOWN""]]]"
+4,"old_raw[
+        [
+          old_cols[""nSigUP""]
+        ]
+      ]","old_raw[[old_cols[""nSigUP""]]]"
+5,"old_raw[
+        [
+          old_cols[""nSigDown""]
+        ]
+      ]","old_raw[[old_cols[""nSigDown""]]]"
+6,"d7_raw[
+        [
+          d7_cols[""pathway""]
+        ]
+      ]","d7_raw[[d7_cols[""pathway""]]]"
+7,"d7_raw[
+        [
+          d7_cols[""M468_NES""]
+        ]
+      ]","d7_raw[[d7_cols[""M468_NES""]]]"
+8,"d7_raw[
+        [
+          d7_cols[""M468_FDR""]
+        ]
+      ]","d7_raw[[d7_cols[""M468_FDR""]]]"
+9,"d7_raw[
+        [
+          d7_cols[""SUM1315_NES""]
+        ]
+      ]","d7_raw[[d7_cols[""SUM1315_NES""]]]"
+10,"d7_raw[
+        [
+          d7_cols[""SUM1315_FDR""]
+        ]
+      ]","d7_raw[[d7_cols[""SUM1315_FDR""]]]"
+11,"d8_raw[
+        [
+          d8_cols[""pathway""]
+        ]
+      ]","d8_raw[[d8_cols[""pathway""]]]"
+12,"d8_raw[
+        [
+          d8_cols[""NES""]
+        ]
+      ]","d8_raw[[d8_cols[""NES""]]]"
+13,"d8_raw[
+        [
+          d8_cols[""FDR""]
+        ]
+      ]","d8_raw[[d8_cols[""FDR""]]]"

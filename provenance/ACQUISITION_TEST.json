@@ -1,0 +1,79 @@
+[
+  {
+    "accession": "GSE235980",
+    "destination": "data_raw/GSE235980_CountReads.txt",
+    "sha256": "18f4a3c18ceef818cba7bc58fcaf11bd5b541bd017196c7057dbee13ca5e2834",
+    "bytes": 1072774,
+    "pass_checksum": true
+  },
+  {
+    "accession": "GSE117765",
+    "destination": "data_raw/GSE117765/GSE117765_matrix.txt",
+    "sha256": "565645ee77200874a761fadbd28e8f308f78cec9b12c421cfef2ed6348807439",
+    "bytes": 1849821,
+    "pass_checksum": true
+  },
+  {
+    "accession": "GSE153867",
+    "destination": "data_raw/GSE153867_fpkm.txt",
+    "sha256": "2206e4f1827f88c09506230c7487e06a0128a7cc428c14b00997f0446509c8cd",
+    "bytes": 5962575,
+    "pass_checksum": true
+  },
+  {
+    "accession": "GSE342642",
+    "destination": "data_raw/GSE342642_Data.txt.gz",
+    "sha256": "28610d9c5aadcdb40e11e88d2bff3546da0bb3712c2f78969a3178992512034a",
+    "bytes": 4907012,
+    "pass_checksum": true
+  },
+  {
+    "accession": "GSE202434",
+    "destination": "data_raw/GSE202434_Exp43_Tala_Normalized_Counts_ExpressedGenesONLY_ProteinCoding_ONLY.csv.gz",
+    "sha256": "de8c6cc4a4910f35a5262074803edf73db5c621b68f5aeef93bcbde893b6aa4e",
+    "bytes": 876818,
+    "pass_checksum": true
+  },
+  {
+    "accession": "GSE202434",
+    "destination": "data_raw/GSE202434_HCC1806_Talazoparib_TPM_ExpressedGenesONLY_ProteinCoding_ONLY.xlsx",
+    "sha256": "10797b9d3f13d48552be887b7c1587fda44ae9830abe1325fa8e36033b01fbc2",
+    "bytes": 2065824,
+    "pass_checksum": true
+  },
+  {
+    "accession": "GSE191231",
+    "destination": "data_raw/GSE191231_Hyun_Analysis_tpm_edger.xlsx",
+    "sha256": "83d3dad3d9e91cc847065173a95822b69cc7fd2f9d37f29f09ec59fc85177ff5",
+    "bytes": 4906201,
+    "pass_checksum": true
+  },
+  {
+    "accession": "GSE165914",
+    "destination": "data_raw/GSE165914/GSE165914_SUM_M468_Parental_OR_counts_mshekhar.csv.gz",
+    "sha256": "74893cd14a6ca2dafddc9f6c2843541f2ccabb94645ed63bf862853372a0a48e",
+    "bytes": 5363306,
+    "pass_checksum": true
+  },
+  {
+    "accession": "GSE165914",
+    "destination": "data_raw/GSE165914/GSE165914_M468P_OR_Diff_Expression_mshekhar.csv.gz",
+    "sha256": "70537b1e66add6f7ce5594787e24c953a323a774c52c7d2a0fd41f9c0c40be93",
+    "bytes": 2587982,
+    "pass_checksum": true
+  },
+  {
+    "accession": "GSE165914",
+    "destination": "data_raw/GSE165914/GSE165914_SUMP_OR_Diff_Expression_mshekhar.csv.gz",
+    "sha256": "93a36bbacf8ad28ec5f10fdde484d0ab887dd57f16a00de2c4bacaa046f38fd7",
+    "bytes": 2800529,
+    "pass_checksum": true
+  },
+  {
+    "accession": "GSE163854",
+    "destination": "data_raw/GSE163854/GSE163854_counts.txt.gz",
+    "sha256": "c00d71b554c71c1025a810bcf20626dc82f39b5193207988e19d7e85eedf7f45",
+    "bytes": 568378,
+    "pass_checksum": true
+  }
+]

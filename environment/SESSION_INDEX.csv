@@ -1,0 +1,7 @@
+path,bytes,sha256,R_version
+figures/graphical_abstract/sessionInfo_graphical_abstract.txt,4516,96e5d0ccdde5eb8499f6caddd5e74e9531d1d64d2d6568fba199018dad3e138f,R version 4.6.1 (2026-06-24 ucrt)
+provenance/D1_D6_reconstruction/20261125_133657/sessionInfo.txt,4534,c02e8c85713e9dd9676caa04392822830e140aadb0ad87095f0aaa75d5ad414b,R version 4.6.1 (2026-06-24 ucrt)
+provenance/D4_reconstruction/20261125_132322/sessionInfo.txt,4512,4fa6af28db5767533363b24f6fa7cd7363ea57f63517e24a8bcdf71e71df2e21,R version 4.6.1 (2026-06-24 ucrt)
+provenance/final_synthesis/20261125_165053/sessionInfo.txt,4571,8c120616433dd776feeb637324f066557c50df7740d6e52343514bc074eaa592,R version 4.6.1 (2026-06-24 ucrt)
+results/GSE117765/sessionInfo_GSE117765.txt,3450,3f2ef20f727e0124cb55bff18c467697b3e7f56e84f8556cb50eecd61a65d329,R version 4.6.1 (2026-06-24 ucrt)
+results/GSE153867/sessionInfo_GSE153867.txt,3430,531f56365d7a03830b391f3b908e99aa03c8756dd4f35a1eeca2641c3328eda0,R version 4.6.1 (2026-06-24 ucrt)

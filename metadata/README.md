@@ -1,3 +1,2 @@
-# Sample metadata
-
-Pending import of verified sample identifiers, contrasts, treatment-state annotations and source accession metadata. Distinguish documented collection-time exposure from maintenance conditions. D8 is excluded from the observational ON/OFF grouping; D5 PSN1 withdrawal includes resistance re-sensitization.
+# Metadata
+DATA_ACQUISITION_MANIFEST.csv records official sources and original input hashes. DATASET_CONTRAST_MANIFEST.csv maps all eight accessions to frozen sample metadata, contrasts and historical preprocessing. D8 trajectory metadata is exploratory; twelve model/contrast units are not twelve independent studies. Full GEO contact records and raw matrices are excluded.
